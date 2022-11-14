@@ -1,0 +1,205 @@
+% !TeX spellcheck = en_US
+ \documentclass[a4paper,12pt]{elsarticle}  %elsarticleclas, classe per a les 
+ %submissions als journals de l'editorial elsevier.
+ \usepackage[utf8]{inputenc} %Per si poso algun accent, en cas contrari ascii dona unicode
+
+
+ \usepackage{subcaption} % per a fer subfigures
+
+ \usepackage{wrapfig} % permet que les figures siguin envoltades per text
+ \usepackage{hyperref}%per a citar les URL que surtin amb link
+ \usepackage{color} %per a que surtin colors a la taula de l'anex
+ \usepackage[numbers]{natbib}% per tal de que les refereencies es generin amb nombres ([numbers]) i pq la bibliografia es generi amb estil Vancouver, carreguem natbib: 
+ \usepackage{amsmath} %necessari per tal Dobtenir formules sense errors i matrius
+ \usepackage{eurosym} %perquE surtin els euros com a tal.. puto unicode
+ \usepackage{parskip} %perquè surtin salts de linia sense posar \par o \\ al final
+
+ 
+ 
+ 
+ \setlength{\parindent}{15pt}
+ %\setlength{\parskip}{1em} %per si vols canviar els salts definits per el paquet parksip entre paragrafs
+ %\renewcommand{\baselinestretch}{2.0} % per si vulgués canviar l'interlineat
+ 
+ %aconseguim que les parts (\part{nom part}) es numerin amb nombres
+ %i inicialitzin els contadors cada vegada que estem en una nova part
+ \usepackage{chngcntr} 
+ \counterwithin{section}{part}
+ 
+ \renewcommand{\thepart}{\arabic{part}}
+% \renewcommand{\figurename}{Figura}
+ 
+ \usepackage{graphicx}%fem que es puguin mostrar els gràfics
+ \usepackage{placeins} %perque les figures flotants no se'n vagin al final. Et permet implementar la comanda \FloatBarrier per evitar que les figures avancin d'un determinat punt.
+ %http://osl.ugr.es/CTAN/macros/latex/contrib/placeins/placeins-doc.pdf
+ 
+ %aconseguim que la table of contents (index)tingui solucionats els problemes de spacing
+ \usepackage{tocloft}% http://ctan.org/pkg/tocloft
+ \usepackage{fancyref} %PAQUET BRUTRAL PER CITAR A LES FIGURES 
+
+
+
+\usepackage{longtable} %per fer que una taula es talli i aparegui en multiples pagines en comptes de fer un overflow.
+
+
+
+
+
+
+
+
+  \usepackage{blindtext}
+
+
+\begin{document} 	
+
+
+\begin{titlepage}
+	\centering
+
+	{\scshape\LARGE Paeria de Balaguer \par}
+
+
+			\vfill
+
+
+	{\scshape\Large Treball als barris\par}
+
+	
+			\vspace{0.5cm}
+
+	
+	{\Large Programa De La Mà: Acompanyament a la Gent Gran.\par}
+
+			
+
+			\vfill
+
+
+
+	{\Large\bfseries NOM5 COGNOM5 COGNOM5 \par}
+	
+
+
+			\vfill
+
+
+
+	{\large Interval de filtratge:\par}
+	{\large del 01/05/2021 al 31/05/2021.\par}
+		
+
+\end{titlepage}
+
+
+
+\clearpage
+
+
+
+
+
+
+
+\FloatBarrier
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1\textwidth]{../IMATGES/logoPaeriaMa.png}
+\end{figure}
+\FloatBarrier	
+
+\vfill
+
+
+
+
+
+
+
+
+
+\noindent Benvolguts,
+
+	\vspace{0.5cm}
+
+Des del \textit{Programa De La Mà: Acompanyament a la Gent Gran}\footnote{Aquesta acció està subvencionada pel Servei Públic 
+d'Ocupació de Catalunya en el marc del Programa de suport als territoris amb majors 
+necessitats de reequilibri territorial i social: projecte``\textbf{treball als barris 2020}'' (SOC032/20/000058).} fem comunicacions mensuals
+dirigides a la família i/o persona de contacte referent dels usuaris.
+
+
+A la següent pàgina veureu una transcripció i adaptació de les actes que han escrit les treballadores associades
+al Programa, en les que es mostra un breu informe de les activitats o accions que s'han fet amb (o per a) 
+Nom5 Cognom5 Cognom5 entre el període comprès entre el dia 01/05/2021 i el dia 31/05/2021.
+
+	\vspace{0.5cm}
+
+\noindent Atentament,
+
+\noindent Santi Sánchez
+
+\noindent \textit{Coordinador Programa De La Mà:Acompanyament a la Gent Gran}\\
+\textbf{(T. anònim. | T. anònim)}
+
+	\vspace{0.5cm}
+
+\noindent Balaguer, 8 de novembre de 2022.
+
+	
+
+
+
+
+
+
+
+
+
+\vfill
+
+\FloatBarrier
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1\textwidth]{../IMATGES/logosGeneMinisterAferssocialsSoc.png}	
+\end{figure}
+\FloatBarrier	
+
+
+
+
+
+
+
+
+
+
+\clearpage
+
+
+
+
+	\begin{longtable}{p{0.15\textwidth}lp{0.45\textwidth}}
+		
+
+		
+		\hline
+		\textbf{DATA} & \textbf{ACOMPANYANT} & \textbf{DESCRIPCIÓ}\\
+		\hline
+			 03/05/2021 & Diana Prince & Dolores ratione consequuntur ullam natus doloremque distinctio pariatur accusamus dignissimos? nam Velit exercitationem voluptatibus. \\ 
+			 05/05/2021 & Diana Prince & amet consectetur esse ut dignissimos saepe voluptatem incidunt Pariatur possimus. \\ 
+			 07/05/2021 & Diana Prince & earum alias dolor sit amet consectetur ex blanditiis eligendi sunt. \\ 
+			 10/05/2021 & Diana Prince & mollitia porro illum quae iste quibusdam amet consectetur exercitationem voluptatibus unde ipsum odio repellendus Autem doloribus vel quae exercitationem voluptatibus. \\ 
+			 10/05/2021 & Natasha Romanov & dolores molestiae non nobis iste quibusdam accusamus dignissimos? iste quibusdam. \\ 
+			 12/05/2021 & Diana Prince & amet consectetur consequuntur ullam Pariatur possimus Pariatur possimus iste quibusdam illum quae dolorum pariatur. \\ 
+			 14/05/2021 & Diana Prince & vel quae earum alias earum alias dolorum pariatur distinctio pariatur iure autem dolorum pariatur Autem doloribus voluptate placeat. \\ 
+			 17/05/2021 & Coleen Wang & nam modi exercitationem vitae ex blanditiis adipisicing elit dignissimos saepe odio repellendus. \\ 
+			 17/05/2021 & Diana Prince & aperiam numquam beatae Odit fuga accusamus iste quibusdam illum quae consequuntur ullam beatae Odit dolorum pariatur ex blanditiis non nobis Dolore quos. \\ 
+			 19/05/2021 & Diana Prince & nam modi voluptate placeat Dolores ratione odio repellendus distinctio pariatur mollitia porro. \\ 
+			 21/05/2021 & Diana Prince & exercitationem voluptatibus facere alias Lorem ipsum iure autem rem temporibus illum quae unde ipsum non nobis Autem doloribus vel quae mollitia animi. \\ 
+			 24/05/2021 & Diana Prince & unde ipsum beatae Odit vel quae asd quam nam Velit velit aliquid accusamus dignissimos?. \\ 
+			 24/05/2021 & Wanda Maximoff & distinctio pariatur mollitia animi Lorem ipsum accusamus dignissimos? quia natus illum quae fuga accusamus Dolores ratione exercitationem vitae. \\ 
+			 26/05/2021 & Diana Prince & mollitia porro non nobis fuga accusamus illum quae mollitia animi dolorum pariatur iste quibusdam eius Repudiandae. \\ 
+			 31/05/2021 & Diana Prince & dolorum pariatur facere alias dolorum pariatur Lorem ipsum. \\ 
+		
+	\end{longtable}
+\end{document}

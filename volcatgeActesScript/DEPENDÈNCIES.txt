@@ -1,0 +1,17 @@
+DEPENDÈNCIES (afegir-les a les variables d'entorn, sobretot pdfTex)
+
+* Distribució [[[   Anaconda   ]]] --> versió 4.7.11 [NOMES CAL AIXO] 
+	DE DINS LA MATEIXA EL PROGRAMA FA SERVIR:
+		- python --> 3.7.3  (llenguatge de programació emprat)
+		- pandas --> ?????? (llibreria de data science, importable des de python)
+
+* Distribució [[[   MiKTeX     ]]] --> versió 2.9.6300 64-bit   
+	DE DINS LA MATEIXA EL PROGRAMA FA SERVIR:
+		- pdftex --> This is pdfTeX, Version 3.14159265-2.6-1.40.18  (permet generar els pdfs des dels arxius tex)
+		- Tex -----> This is TeX, Version 3.14159265	(compilador de latex)
+		-
+
+NOTA: Per visualitzar i compilar latex manualment (Sense fer servir l'script, per fer canvis en una fulla individual) podeu fer servir
+TexStudio, que també està dins MiKTeX
+
+NOTA: Això funciona en PC. Per a MAC la distribució de LaTex NO SERIA EL MiKTeX, sino probablement una altra.
